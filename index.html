@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title>AI Video Surveillance</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <h2 id="head">
+      AI - Object Finder
+      <p id="note">The input name which you will should match the names present in Coco then only it will detect</p>
+    </h2>
+    <br>
+    <br>
+    <input placeholder="Object name" id="object_name">
+    <br>
+    <br>
+    <span>
+      <button class="btn btn-danger">Status :</button>
+      &nbsp; &nbsp;&nbsp; &nbsp;
+      <button class="btn btn-primary">Object :</button>
+    </span>
+    <br>
+    <br>
+    <button class="btn btn-success" id="start_btn"  onclick="start()"> Start</button>
+    <div id="footer">
+      &copy;Developed By Bhaskar Krishnan (TechB)
+    </div>
+  </center>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
