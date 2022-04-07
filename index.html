@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>AI Object Finder</title>
+  <title>AI Video Surveillance</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +12,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
 
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -31,9 +32,9 @@
     <br>
     <br>
     <span>
-      <button class="btn btn-danger">Status :</button>
+      <button id="status" class="btn btn-danger">Status :</button>
       &nbsp; &nbsp;&nbsp; &nbsp;
-      <button class="btn btn-primary">Object :</button>
+      <button id="object_status" class="btn btn-primary">Object :</button>
     </span>
     <br>
     <br>

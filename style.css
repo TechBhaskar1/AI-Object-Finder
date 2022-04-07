@@ -35,3 +35,7 @@ body {
     position: fixed;
     width: 100%;
 }
+canvas{
+    border-radius: 20px;
+    margin-top: 130px;
+}
